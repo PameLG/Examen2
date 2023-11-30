@@ -1,13 +1,18 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package Hospital;
 
-/**
- *
- * @author Student
- */
+import java.util.ArrayList;
+import java.util.HashMap;
+
+
 public class ListaPacientes {
+    private HashMap<String, ArrayList<Pacientes>> pacientesClasif;
+
+    public ListaPacientes() {
+        this.pacientesClasif = new HashMap<>();
+     }
+    public void agregarPacientes(Pacientes paciente){
+        
     
+   }
 }
